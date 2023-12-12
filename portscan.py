@@ -15,7 +15,7 @@ def scan_port(ip, port):
 
 def main():
     target_ip = input("Enter the IP address to scan: ")
-    for port in range(1, 1025): # Scanning the first 1024 port_scan
+    for port in range(1, 1025): # Scanning the first 1024 ports
         scan_port(target_ip, port)
 
 if __name__ == "__main__":
